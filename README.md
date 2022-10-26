@@ -5,46 +5,46 @@
 - [x] LinkedList
 - [x] Stack Using LinkedList
 - [x] Queue Using LinkedList
-- Circular Linked List
-- Doubly Linked List
-- Binary Search Tree
-- Priority Queue
-- Circular Queue
-- Set
-- Deque
-- Hash Table
-- Heap Data Structure
-- Undirected Graph
-- Directed Graph
-- Weighted Graph
-- AVL trees
-- Red Black Trees
-- Tries
-- DAG(Directed Acyclic Graphs)
+- [ ] Circular Linked List
+- [ ] Doubly Linked List
+- [ ] Binary Search Tree
+- [ ] Priority Queue
+- [ ] Circular Queue
+- [ ] Set
+- [ ] Deque
+- [ ] Hash Table
+- [ ] Heap Data Structure
+- [ ] Undirected Graph
+- [ ] Directed Graph
+- [ ] Weighted Graph
+- [ ] AVL trees
+- [ ] Red Black Trees
+- [ ] Tries
+- [ ] DAG(Directed Acyclic Graphs)
 
 ## Practice
-- Prime Number
-- Fibonacci Series
-- Factorial of Number
-- Search
-    - Linear Search
-    - Binary Search
-- Sorting
-    - Bubble Sort
-    - Selection Sort
-    - Insertion Sort
-    - Merge Sort
-    - Quicksort
-- Greedy Algorithms
-    - Greedy Algorithm
-    - Ford-Fulkerson Algorithm
-    - Dijkstra's Algorithm
-    - Kruskal's Algorithm
-    - Prim's Algorithm
-    - Huffman Coding
-- Dynamic Programming
-    - Floyd-Warshall Algorithm
-    - Longest Common Sequence
-- Other Algorithms
-    - Backtracking Algorithm
-    - Rabin-Karp Algorithm
+- [ ] Prime Number
+- [ ] Fibonacci Series
+- [ ] Factorial of Number
+- [ ] Search
+    - [ ] Linear Search
+    - [ ] Binary Search
+- [ ] Sorting
+    - [ ] Bubble Sort
+    - [ ] Selection Sort
+    - [ ] Insertion Sort
+    - [ ] Merge Sort
+    - [ ] Quicksort
+- [ ] Greedy Algorithms
+    - [ ] Greedy Algorithm
+    - [ ] Ford-Fulkerson Algorithm
+    - [ ] Dijkstra's Algorithm
+    - [ ] Kruskal's Algorithm
+    - [ ] Prim's Algorithm
+    - [ ] Huffman Coding
+- [ ] Dynamic Programming
+    - [ ] Floyd-Warshall Algorithm
+    - [ ] Longest Common Sequence
+- [ ] Other Algorithms
+    - [ ] Backtracking Algorithm
+    - [ ] Rabin-Karp Algorithm
