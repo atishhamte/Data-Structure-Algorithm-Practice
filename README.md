@@ -2,3 +2,4 @@
 ## DSA
 - Stack
 - Queue
+- LinkedList
