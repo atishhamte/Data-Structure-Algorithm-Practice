@@ -34,7 +34,8 @@ class Stack {
         //     }
         // }
         // return null
-        return this.items.find(i => this.items[i] === item) || null
+        let index = this.items.indexOf(item);
+        return (index > 0) ? index : null;
 
     }
 
