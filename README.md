@@ -3,4 +3,5 @@
 - Stack
 - Queue
 - LinkedList
-- Stack by LinkedList
+- Stack Using LinkedList
+- Queue Using LinkedList
