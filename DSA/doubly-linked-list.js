@@ -2,10 +2,11 @@ class Node {
     constructor(value) {
         this.value = value;
         this.next = null;
+        this.prev = null;
     }
 }
 
-class LinkedList {
+class DoublyLinkedList {
     constructor() {
         this.head = null;
         this.size = 0;
@@ -21,8 +22,8 @@ class LinkedList {
             while (prev.next) {
                 prev = prev.next;
             }
-
             prev.next = node;
+            node.prev = prev;
         }
 
         this.size++;
@@ -37,6 +38,7 @@ class LinkedList {
             let temp = this.head;
             this.head = node;
             node.next = temp;
+            temp.prev = node;
         }
 
         this.size++;
@@ -53,45 +55,52 @@ class LinkedList {
         if (location === 0) {
             this.prepend(element);
         }
+        else if (this.sizeOfList() === location) {
+            this.append(element);
+        }
         else {
-            let i = 1;
-            let prev = this.head;
+            let i = 0;
+            let current = this.head;
 
-            while (prev.next) {
+            while (current) {
                 if (i === location) {
-                    let next = prev.next;
-                    prev.next = node;
+                    let next = current.next;
+                    current.next = node;
+                    node.prev = current;
                     node.next = next;
+                    next.prev = node;
                     this.size++;
                     break;
                 }
                 else {
-                    prev = prev.next;
+                    current = current.next;
                 }
 
                 i++;
             }
-            this.size++;
         }
     }
 
     removeElement(element) {
-        let prev = this.head;
-        if (prev.value === element) {
-            this.head = prev.next;
+        let current = this.head;
+        if (current.value === element) {
+            this.head = current.next;
+            this.head.prev = null;
             this.size--;
             return true;
         }
         else {
-            while (prev.next) {
-                if (prev.next.value === element) {
-                    let next = prev.next.next;
-                    prev.next = next
+            while (current) {
+                if (current.value === element) {
+                    let next = current.next;
+                    let prev = current.prev;
+                    prev.next = next;
+                    next.prev = prev;
                     this.size--;
                     return true;
                 }
                 else {
-                    prev = prev.next;
+                    current = current.next;
                 }
             }
             return false;
@@ -105,21 +114,24 @@ class LinkedList {
 
         if (location === 0) {
             this.head = this.head.next;
+            this.head.prev = null;
             this.size--;
             return true;
         }
-        let i = 1;
-        let prev = this.head;
+        let i = 0;
+        let current = this.head;
 
-        while (prev.next) {
+        while (current) {
             if (i === location) {
-                let next = prev.next.next;
-                prev.next = next
+                let next = current.next;
+                let prev = current.prev;
+                prev.next = next;
+                next.prev = prev;
                 this.size--;
                 return true;
             }
             else {
-                prev = prev.next;
+                current = current.next;
             }
 
             i++;
@@ -159,7 +171,7 @@ class LinkedList {
         let root = this.head;
         let str = '';
         while (root.next) {
-            str += root.value + ' -> ';
+            str += root.value + ' <-> ';
             root = root.next;
         }
         str += root.value;
@@ -167,57 +179,50 @@ class LinkedList {
     }
 }
 
-let ll = new LinkedList();
+let dll = new DoublyLinkedList();
 console.log('Insert 1 at location 0');
-ll.insertAt(1, 0);
-console.log('Print the list : ', ll.printList());
+dll.insertAt(1, 0);
+console.log('Print the list : ', dll.printList());
 
-console.log('Insert 5');
-ll.append(5);
-console.log('Print the list : ', ll.printList());
+console.log('Insert 6');
+dll.append(6);
+console.log('Print the list : ', dll.printList());
 
 console.log('Insert 10');
-ll.append(10);
-console.log('Print the list : ', ll.printList());
-
-console.log('Insert 15');
-ll.append(15);
-console.log('Print the list : ', ll.printList());
+dll.append(10);
+console.log('Print the list : ', dll.printList());
 
 console.log('Prepend 0');
-ll.prepend(0);
-console.log('Print the list : ', ll.printList());
+dll.prepend(0);
+console.log('Print the list : ', dll.printList());
 
-console.log('Insert 20');
-ll.append(20);
-console.log('Print the list : ', ll.printList());
+console.log('Insert 15');
+dll.append(15);
+console.log('Print the list : ', dll.printList());
 
-console.log('Insert 17 at location 3');
-ll.insertAt(17, 3);
-console.log('Print the list : ', ll.printList());
+console.log('Insert 20 at location 5');
+dll.insertAt(20, 5);
 
-console.log('Insert 99 at location 0');
-ll.insertAt(99, 0);
-console.log('Print the list : ', ll.printList());
+console.log('Print the list : ', dll.printList());
 
 console.log('Insert 12 at location 22');
-ll.insertAt(12, 22);
-console.log('Print the list : ', ll.printList());
+dll.insertAt(12, 22);
+console.log('Print the list : ', dll.printList());
 
-console.log('Remove element 17');
-ll.removeElement(17);
-console.log('Print the list : ', ll.printList());
+console.log('Remove element 6');
+dll.removeElement(6);
+console.log('Print the list : ', dll.printList());
 
-console.log('Index of element 10 is : ', ll.indexOf(10));
+console.log('Index of element 10 is : ', dll.indexOf(10));
 
 console.log('Remove element 1');
-ll.removeElement(1);
-console.log('Print the list : ', ll.printList());
+dll.removeElement(1);
+console.log('Print the list : ', dll.printList());
 
 console.log('Remove from location 2');
-ll.removeFrom(2);
-console.log('Print the list : ', ll.printList());
+dll.removeFrom(2);
+console.log('Print the list : ', dll.printList());
 
 console.log('Remove from location 0');
-ll.removeFrom(0);
-console.log('Print the list : ', ll.printList());
+dll.removeFrom(0);
+console.log('Print the list : ', dll.printList());

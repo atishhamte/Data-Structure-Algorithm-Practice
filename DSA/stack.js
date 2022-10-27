@@ -35,7 +35,7 @@ class Stack {
         // }
         // return null
         let index = this.items.indexOf(item);
-        return (index > 0) ? index : null;
+        return (index !== -1) ? index : null;
 
     }
 
