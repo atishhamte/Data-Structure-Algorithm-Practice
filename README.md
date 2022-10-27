@@ -5,7 +5,7 @@
 - [x] LinkedList
 - [x] Stack Using LinkedList
 - [x] Queue Using LinkedList
-- [ ] Doubly Linked List
+- [x] Doubly Linked List
 - [ ] Circular Linked List
 - [ ] Binary Search Tree
 - [ ] Priority Queue
