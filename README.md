@@ -7,7 +7,7 @@
 - [x] Queue Using LinkedList
 - [x] Doubly Linked List
 - [x] Circular Linked List
-- [ ] Binary Search Tree
+- [x] Binary Search Tree
 - [ ] Priority Queue
 - [ ] Circular Queue
 - [ ] Set
