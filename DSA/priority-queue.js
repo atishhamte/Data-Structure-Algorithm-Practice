@@ -14,7 +14,7 @@ class PriorityQueue {
         let node = new Node(value, priority);
 
         for (let i = 0; i < this.items.length; i++) {
-            if (this.items[i].priority > node.priority) {
+            if (node.priority > this.items[i].priority) {
                 this.items.splice(i, 0, node);
                 return true;
             }
