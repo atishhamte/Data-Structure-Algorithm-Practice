@@ -10,7 +10,7 @@
 - Binary Search Tree ([JavaScript](DSA/binary-search-tree.js))
 - Priority Queue ([JavaScript](DSA/priority-queue.js))
 - Circular Queue ([JavaScript](DSA/circular-queue.js))
-- Set ([JavaScript](DSA/set.js))
+- Set ([JavaScript V1](DSA/set-v1.js), [JavaScript V2](DSA/set-v2.js))
 - Deque ([JavaScript](DSA/deque.js))
 - Hash Table
 - Heap Data Structure
