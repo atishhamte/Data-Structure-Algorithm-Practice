@@ -11,7 +11,7 @@
 - Priority Queue ([JavaScript](DSA/priority-queue.js))
 - Circular Queue ([JavaScript](DSA/circular-queue.js))
 - Set ([JavaScript](DSA/set.js))
-- Deque
+- Deque ([JavaScript](DSA/deque.js))
 - Hash Table
 - Heap Data Structure
 - Undirected Graph
