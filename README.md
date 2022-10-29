@@ -9,7 +9,7 @@
 - [x] Circular Linked List
 - [x] Binary Search Tree
 - [x] Priority Queue
-- [ ] Circular Queue
+- [x] Circular Queue
 - [ ] Set
 - [ ] Deque
 - [ ] Hash Table
