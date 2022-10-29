@@ -8,7 +8,7 @@
 - [x] Doubly Linked List
 - [x] Circular Linked List
 - [x] Binary Search Tree
-- [ ] Priority Queue
+- [x] Priority Queue
 - [ ] Circular Queue
 - [ ] Set
 - [ ] Deque
