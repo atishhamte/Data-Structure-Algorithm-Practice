@@ -1,15 +1,15 @@
 # Data-Structure-Algorithm-Practice
 ## DSA
 - Stack ([JavaScript](DSA/stack.js))
-- Queue
-- LinkedList
-- Stack Using LinkedList
-- Queue Using LinkedList
-- Doubly Linked List
-- Circular Linked List
-- Binary Search Tree
-- Priority Queue
-- Circular Queue
+- Queue ([JavaScript](DSA/queue.js))
+- LinkedList ([JavaScript](DSA/linked-list.js))
+- Stack Using LinkedList ([JavaScript](DSA/stack-using-linked-list.js))
+- Queue Using LinkedList ([JavaScript](DSA/queue-using-linked-list.js))
+- Doubly Linked List ([JavaScript V1](DSA/doubly-linked-list-v1.js), [JavaScript V2](DSA/doubly-linked-list-v2.js))
+- Circular Linked List ([JavaScript](DSA//circular-linked-list.js))
+- Binary Search Tree ([JavaScript](DSA/binary-search-tree.js))
+- Priority Queue ([JavaScript](DSA/priority-queue.js))
+- Circular Queue ([JavaScript](DSA/circular-queue.js))
 - Set
 - Deque
 - Hash Table
