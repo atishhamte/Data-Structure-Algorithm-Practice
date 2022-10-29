@@ -26,7 +26,7 @@ class Set {
     }
 
     has(data) {
-        return this.items.find(item => item === data);
+        return this.items.indexOf(data) !== -1;
     }
 
     clear() {
@@ -64,7 +64,7 @@ class ExtendedSet extends Set {
     isSupersetOf(set) {
         if (!this._isValidSet(set)) return false;
 
-        return this.size() <= set.size() && [...set.items].every(item => set.has(item))
+        return this.size() >= set.size() && [...set.items].every(item => this.has(item))
     }
 
     union(set) {
