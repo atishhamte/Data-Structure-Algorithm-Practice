@@ -13,7 +13,7 @@
 - Set ([JavaScript V1](DSA/set-v1.js), [JavaScript V2](DSA/set-v2.js))
 - Deque ([JavaScript](DSA/deque.js))
 - Hash Table ([JavaScript](DSA/hash-table.js))
-- Heap Data Structure
+- Heap ([JavaScript](DSA/heap.js))
 - Undirected Graph
 - Directed Graph
 - Weighted Graph
