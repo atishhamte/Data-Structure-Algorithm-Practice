@@ -14,12 +14,12 @@
 - Deque ([JavaScript](DSA/deque.js))
 - Hash Table ([JavaScript](DSA/hash-table.js))
 - Heap ([JavaScript](DSA/heap.js))
+- AVL trees ([JavaScript](DSA/avl-tree.js))
+- Red Black Trees
+- Tries
 - Undirected Graph
 - Directed Graph
 - Weighted Graph
-- AVL trees
-- Red Black Trees
-- Tries
 - DAG(Directed Acyclic Graphs)
 
 ## Practice
