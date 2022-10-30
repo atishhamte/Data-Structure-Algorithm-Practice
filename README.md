@@ -15,7 +15,7 @@
 - Hash Table ([JavaScript](DSA/hash-table.js))
 - Heap ([JavaScript](DSA/heap.js))
 - AVL trees ([JavaScript](DSA/avl-tree.js))
-- Red Black Trees
+- Red Black Trees ([JavaScript](DSA/red-black-tree.js))
 - Tries
 - Undirected Graph
 - Directed Graph
