@@ -16,7 +16,7 @@
 - Heap ([JavaScript](DSA/heap.js))
 - AVL trees ([JavaScript](DSA/avl-tree.js))
 - Red Black Trees ([JavaScript](DSA/red-black-tree.js))
-- Tries
+- Trie ([JavaScript](DSA/trie.js))
 - Undirected Graph
 - Directed Graph
 - Weighted Graph
