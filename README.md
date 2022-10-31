@@ -18,7 +18,7 @@
 - Red Black Trees ([JavaScript](DSA/red-black-tree.js))
 - Trie ([JavaScript](DSA/trie.js))
 - Undirected Graph ([JavaScript Adjacency Matrix](DSA/undirected-graph-matrix.js), [JavaScript Adjacency List](DSA/undirected-graph-list.js))
-- Directed Graph
+- Directed Graph ([JavaScript](DSA/directed-graph.js))
 - Weighted Graph
 - DAG(Directed Acyclic Graphs)
 
