@@ -17,7 +17,7 @@
 - AVL trees ([JavaScript](DSA/avl-tree.js))
 - Red Black Trees ([JavaScript](DSA/red-black-tree.js))
 - Trie ([JavaScript](DSA/trie.js))
-- Undirected Graph
+- Undirected Graph ([JavaScript Adjacency Matrix](DSA/undirected-graph-matrix.js), [JavaScript Adjacency List](DSA/undirected-graph-list.js))
 - Directed Graph
 - Weighted Graph
 - DAG(Directed Acyclic Graphs)
