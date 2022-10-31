@@ -19,7 +19,7 @@
 - Trie ([JavaScript](DSA/trie.js))
 - Undirected Graph ([JavaScript Adjacency Matrix](DSA/undirected-graph-matrix.js), [JavaScript Adjacency List](DSA/undirected-graph-list.js))
 - Directed Graph ([JavaScript](DSA/directed-graph.js))
-- Weighted Graph
+- Weighted Graph ([JavaScript](DSA/weighted-graph.js))
 - DAG(Directed Acyclic Graphs)
 
 ## Practice
