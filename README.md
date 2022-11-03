@@ -23,7 +23,7 @@
 - DAG(Directed Acyclic Graphs) ([JavaScript](DSA/dag.js))
 
 ## Practice
-- Prime Number ([JavaScript](DSA/prime-number.js))
+- Prime Number ([JavaScript](Practice/prime-number.js))
 - Fibonacci Series
 - Factorial of Number
 - Search
