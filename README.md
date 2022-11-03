@@ -20,7 +20,7 @@
 - Undirected Graph ([JavaScript Adjacency Matrix](DSA/undirected-graph-matrix.js), [JavaScript Adjacency List](DSA/undirected-graph-list.js))
 - Directed Graph ([JavaScript](DSA/directed-graph.js))
 - Weighted Graph ([JavaScript](DSA/weighted-graph.js))
-- DAG(Directed Acyclic Graphs)
+- DAG(Directed Acyclic Graphs) ([JavaScript](DSA/dag.js))
 
 ## Practice
 - Prime Number
