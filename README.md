@@ -27,7 +27,7 @@
 - Fibonacci Series ([JavaScript](Practice/fibonacci.js))
 - Factorial of Number ([JavaScript](Practice/factorial.js))
 - Search
-    - Linear Search
+    - Linear Search ([JavaScript](Practice/linear-search.js))
     - Binary Search
 - Sorting
     - Bubble Sort
