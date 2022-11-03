@@ -24,7 +24,7 @@
 
 ## Practice
 - Prime Number ([JavaScript](Practice/prime-number.js))
-- Fibonacci Series
+- Fibonacci Series ([JavaScript](Practice/fibonacci.js))
 - Factorial of Number
 - Search
     - Linear Search
