@@ -39,6 +39,6 @@ function binarySearch(searchArray, item) {
 
 
 let item = 12;
-let searchArray = [0, 1, 11, 12, 2, 33, 44, 5, 57, 65, 87, 96];
+let searchArray = [0, 1, 2, 5, 11, 12, 33, 44, 57, 65, 87, 96];
 
 console.log(binarySearch(searchArray, item));
