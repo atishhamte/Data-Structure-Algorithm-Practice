@@ -28,7 +28,7 @@
 - Factorial of Number ([JavaScript](Practice/factorial.js))
 - Search
     - Linear Search ([JavaScript](Practice/linear-search.js))
-    - Binary Search
+    - Binary Search ([JavaScript](Practice/binary-search.js))
 - Sorting
     - Bubble Sort
     - Selection Sort
