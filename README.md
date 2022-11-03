@@ -30,11 +30,11 @@
     - Linear Search ([JavaScript](Practice/linear-search.js))
     - Binary Search ([JavaScript](Practice/binary-search.js))
 - Sorting
-    - Bubble Sort
-    - Selection Sort
-    - Insertion Sort
-    - Merge Sort
-    - Quicksort
+    - Bubble Sort ([JavaScript](Practice/bubble-sort.js))
+    - Selection Sort ([JavaScript](Practice/selection-sort.js))
+    - Insertion Sort ([JavaScript](Practice/insertion-sort.js))
+    - Merge Sort ([JavaScript](Practice/merge-sort.js))
+    - Quicksort ([JavaScript](Practice/quick-sort.js))
 - Greedy Algorithms
     - Greedy Algorithm
     - Ford-Fulkerson Algorithm
